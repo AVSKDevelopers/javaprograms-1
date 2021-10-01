@@ -2,7 +2,7 @@
 public class Demo {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		System.out.println("Hello My Friends");
 		Demo.print();
 		
 		Student s = new Student(1, "Apoorv");
@@ -11,6 +11,8 @@ public class Demo {
 		s2.print();
 		Student s3 = new Student(3, "Prakhar");
 		s3.print();
+                Student s4 = new Student(4, "Vineet");
+		s4.print()
 	}
 	
 	public static void print() {
